@@ -30,7 +30,7 @@ const Category = () => {
           </div>
         ))}
       </div>
-      <div>I love you</div>
+      <div></div>
     </div>
   );
 };
