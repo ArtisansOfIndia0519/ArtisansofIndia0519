@@ -63,8 +63,7 @@
     font-size: 45px;
     font-weight: 650;
     color: #1c140d;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #e5e8eb;
+    border-bottom: dotted 2px rgb(73, 55, 55);
     padding: 10px;
 }
 
@@ -89,7 +88,7 @@
     justify-content: space-evenly;
     box-shadow: 20px 20px 34px rgba(0, 0, 0.03);
     border-radius: 18px;
-    transition: 1s ease-in-out;
+    transition: 0.5s ease-in-out;
 }
 
 .cat-title {
@@ -130,5 +129,6 @@ button {
     font-weight: 800;
 }
 .category-box:hover {
-    transform: scale(0.05);
+    transform: scale(1.1);
+
 }
