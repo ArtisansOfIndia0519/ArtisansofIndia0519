@@ -60,10 +60,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 30px;
-    font-size: 50px;
+    font-size: 48px;
     font-weight: 650;
     color: #1c140d;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #e5e8eb;
+    padding: 10px;
 }
 
 .categories-box-container {
