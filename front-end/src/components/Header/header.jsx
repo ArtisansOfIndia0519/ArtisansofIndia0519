@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 import { FaSearch, FaRegHeart, FaShoppingBag, FaRegUser } from "react-icons/fa";
 
-import logo from "../Assets/Images/Logo.svg";
+import logo from "../Assets/Images/logo1.svg";
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
