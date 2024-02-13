@@ -38,3 +38,28 @@
 .category-circle:hover {
     transform: scale(1.1);
 }
+
+.trending-products {
+    margin-top: 50px;
+}
+.section-title {
+    font-size: 50px;
+    font-weight: 600;
+}
+.products-container {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.product-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product-box {
+}
+.product-name {
+    font-size: 24px;
+    font-weight: 300;
+}
