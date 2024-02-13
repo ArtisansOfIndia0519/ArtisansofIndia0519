@@ -60,11 +60,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 45px;
-    font-weight: 650;
+    font-family: "Brush Script MT", cursive;
+    font-size: 55px;
+    font-weight: 400;
     color: #4d3e30;
     background-color: #e5e8eb;
-    padding:  10px 0;
+    padding: 10px 0;
 }
 
 .categories-box-container {
