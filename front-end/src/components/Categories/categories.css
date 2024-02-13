@@ -63,7 +63,7 @@
     font-size: 45px;
     font-weight: 650;
     color: #1c140d;
-    border-bottom: dotted 2px rgb(73, 55, 55);
+    border-bottom: dashed 3px rgb(73, 55, 55);
     padding: 10px;
 }
 
