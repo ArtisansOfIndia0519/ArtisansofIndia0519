@@ -62,9 +62,9 @@
     align-items: center;
     font-size: 45px;
     font-weight: 650;
-    color: #1c140d;
-    border-bottom: dotted 2px rgb(73, 55, 55);
-    padding: 10px;
+    color: #4d3e30;
+    background-color: #e5e8eb;
+    padding:  10px 0;
 }
 
 .categories-box-container {
