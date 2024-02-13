@@ -60,11 +60,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 48px;
+    font-size: 45px;
     font-weight: 650;
     color: #1c140d;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #e5e8eb;
+    border-bottom: dotted 2px rgb(73, 55, 55);
     padding: 10px;
 }
 

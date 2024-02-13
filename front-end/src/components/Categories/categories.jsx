@@ -54,7 +54,7 @@ const Category = () => {
         ))}
       </div>
       <div className="trending-products">
-        <div className="section-title">Trending Products</div>
+        <div className="section-title">TRENDING PRODUCTS</div>
         <div className="categories-box-container">
           {categories.map((category, index) => (
             <div className="category-box" key={index}>
