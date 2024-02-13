@@ -58,8 +58,7 @@
 
 .section-title {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-left: 30px;
     font-size: 50px;
     font-weight: 650;
     color: #1c140d;
@@ -85,6 +84,7 @@
     align-items: center;
     justify-content: space-evenly;
     box-shadow: 20px 20px 34px rgba(0, 0, 0.03);
+    border-radius: 18px;
 }
 
 .cat-title {
@@ -114,7 +114,8 @@
 }
 
 button {
-    background-color: transparent;
+    background-color: rgba(179, 181, 184, 0.784);
+    padding: 7px;
     border: none;
     outline: none;
     cursor: pointer;
