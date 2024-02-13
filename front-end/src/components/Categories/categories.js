@@ -2,24 +2,29 @@
 import React from "react";
 import "./categories.css";
 
-import image from "../Assets/Images/banner1.svg";
+import image1 from "../Assets/Images/banner1.svg";
+import image2 from "../Assets/Images/banner2.svg";
+import image3 from "../Assets/Images/banner3.svg";
+import image4 from "../Assets/Images/banner4.svg";
+import image5 from "../Assets/Images/banner5.svg";
+import image6 from "../Assets/Images/banner6.svg";
 
 const categoriesData = [
-  { id: 1, name: "Category 1", image: image },
-  { id: 2, name: "Category 2", image: image },
-  { id: 3, name: "Category 3", image: image },
-  { id: 4, name: "Category 4", image: image },
-  { id: 5, name: "Category 5", image: image },
-  { id: 6, name: "Category 6", image: image },
+  { id: 1, name: "Category 1", image: image1 },
+  { id: 2, name: "Category 2", image: image2 },
+  { id: 3, name: "Category 3", image: image3 },
+  { id: 4, name: "Category 4", image: image4 },
+  { id: 5, name: "Category 5", image: image5 },
+  { id: 6, name: "Category 6", image: image6 },
 ];
 
 const productsData = [
-  { id: 1, name: "Product 1", image: image },
-  { id: 2, name: "Product 2", image: image },
-  { id: 3, name: "Product 3", image: image },
-  { id: 4, name: "Product 4", image: image },
-  { id: 5, name: "Product 5", image: image },
-  { id: 6, name: "Product 6", image: image },
+  { id: 1, name: "Product 1", image: image1 },
+  { id: 2, name: "Product 2", image: image2 },
+  { id: 3, name: "Product 3", image: image3 },
+  { id: 4, name: "Product 4", image: image4 },
+  { id: 5, name: "Product 5", image: image5 },
+  { id: 6, name: "Product 6", image: image6 },
 ];
 
 const Category = () => {
