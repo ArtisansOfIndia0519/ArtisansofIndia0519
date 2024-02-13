@@ -39,7 +39,7 @@ const Slider = () => {
         </div>
         <div className="search-bar">
           <FaSearch />
-          <input type="text" placeholder="Exploer the world of Art" />
+          <input type="text" placeholder="Explore the world of Art" />
           <button className="btn">Search</button>
           {/* Additional search bar elements go here */}
         </div>
