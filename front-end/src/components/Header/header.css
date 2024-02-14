@@ -51,6 +51,7 @@
 
 .sticky-header {
     position: sticky;
+    box-shadow: 10px 10px 20px rgb(94, 79, 54);
     top: 0;
     transform: translateY(0);
     animation: sticky-headers 0.4s ease forwards;

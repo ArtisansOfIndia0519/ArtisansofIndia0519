@@ -73,6 +73,10 @@
             border-radius: 9px;
             cursor: pointer;
         }
+        .btn:hover {
+            background-color: #06472e;
+            color: #fff;
+        }
     }
 }
 
