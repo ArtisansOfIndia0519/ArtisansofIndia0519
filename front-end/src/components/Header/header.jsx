@@ -34,16 +34,16 @@ const Header = () => {
               <img src={logo} alt="" />
             </div>
             <div className="navigation-buttons">
-              <Link to="/">
+              <Link to="./">
                 <button className="btn">Home</button>
               </Link>
-              <Link>
+              <Link to="./categories">
                 <button className="btn">Categories</button>
               </Link>
-              <Link>
+              <Link to="./aboutus">
                 <button className="btn">About Us</button>
               </Link>
-              <Link>
+              <Link to="./contactus">
                 <button className="btn">Contact Us</button>
               </Link>
             </div>

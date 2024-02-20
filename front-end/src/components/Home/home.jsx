@@ -1,8 +1,9 @@
 import "../Home/home.css";
 
 import ImgSlider from "./imgslider";
-import Category from "../Categories/categories";
+import Product from "../Products/products";
 import NewsLetter from "../NewsLetter/newsletter";
+import Stories from "../ArtisansStory/story";
 
 const Home = () => {
   return (
@@ -11,11 +12,14 @@ const Home = () => {
         <div className="banner">
           <ImgSlider />
         </div>
-        <div className="categories">
-          <Category />
+        <div className="products">
+          <Product />
         </div>
         <div className="newsletter">
           <NewsLetter />
+        </div>
+        <div className="stories">
+          <Stories />
         </div>
       </div>
     </>

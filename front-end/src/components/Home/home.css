@@ -12,7 +12,7 @@
     align-items: center;
     border-radius: 10px;
 }
-.categories {
+.products {
     margin-top: 20px;
     width: 100%;
     display: flex;
@@ -30,4 +30,10 @@
     align-items: center;
     background-color: rgb(241, 200, 165);
     background-image: url(../Assets/Images/newsletterbg.svg);
+}
+.stories {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
