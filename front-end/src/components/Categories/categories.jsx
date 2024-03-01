@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./categories.css";
+import { FaStar } from "react-icons/fa";
+import { FaCartPlus } from "react-icons/fa";
 
 import category1Image from "../Assets/Images/banner1.svg";
 import category2Image from "../Assets/Images/banner2.svg";
@@ -56,22 +58,85 @@ const categories = [
 ];
 
 const Products = [
-  { id: 1, img: image1, ProdName: "name" },
-  { id: 1, img: image1, ProdName: "name" },
-  { id: 1, img: image1, ProdName: "name" },
-  { id: 1, img: image1, ProdName: "name" },
-  { id: 1, img: image1, ProdName: "name" },
-  { id: 1, img: image1, ProdName: "name" },
-  { id: 1, img: image1, ProdName: "name" },
-  { id: 1, img: image1, ProdName: "name" },
-  { id: 1, img: image1, ProdName: "name" },
-  { id: 1, img: image1, ProdName: "name" },
-  { id: 1, img: image1, ProdName: "name" },
-  { id: 1, img: image1, ProdName: "name" },
-  { id: 1, img: image1, ProdName: "name" },
-  { id: 1, img: image1, ProdName: "name" },
-  { id: 1, img: image1, ProdName: "name" },
+  {
+    id: 1,
+    img: image1,
+    ProdName: "name1",
+    ProductDiscription: "bqiweffhiwh nebuhqhvdn",
+    rating: 3,
+  },
+  {
+    id: 2,
+    img: image1,
+    ProdName: "name2",
+    ProductDiscription: "bqiweffhiwh nebuhqhvdn",
+    rating: 3,
+  },
+  {
+    id: 3,
+    img: image1,
+    ProdName: "name3",
+    ProductDiscription: "bqiweffhiwh nebuhqhvdn",
+    rating: 3,
+  },
+  {
+    id: 4,
+    img: image1,
+    ProdName: "name4",
+    ProductDiscription: "bqiweffhiwh nebuhqhvdn",
+    rating: 3,
+  },
+  {
+    id: 5,
+    img: image1,
+    ProdName: "name5",
+    ProductDiscription: "bqiweffhiwh nebuhqhvdn",
+    rating: 5,
+  },
+  {
+    id: 6,
+    img: image1,
+    ProdName: "name6",
+    ProductDiscription: "bqiweffhiwh nebuhqhvdn",
+    rating: 3,
+  },
+  {
+    id: 7,
+    img: image1,
+    ProdName: "name7",
+    ProductDiscription: "bqiweffhiwh nebuhqhvdn",
+    rating: 3,
+  },
+  {
+    id: 8,
+    img: image1,
+    ProdName: "name8",
+    ProductDiscription: "bqiweffhiwh nebuhqhvdn",
+    rating: 3,
+  },
+  {
+    id: 9,
+    img: image1,
+    ProdName: "name9",
+    ProductDiscription: "bqiweffhiwh nebuhqhvdn",
+    rating: 3,
+  },
+  {
+    id: 10,
+    img: image1,
+    ProdName: "name10",
+    ProductDiscription: "bqiweffhiwh nebuhqhvdn",
+    rating: 3,
+  },
+  {
+    id: 11,
+    img: image1,
+    ProdName: "name11",
+    ProductDiscription: "bqiweffhiwh nebuhqhvdn",
+    rating: 3,
+  },
 ];
+
 const Banner = () => {
   const [currentCategory, setCurrentCategory] = useState(0);
 
@@ -85,6 +150,10 @@ const Banner = () => {
     return () => clearInterval(interval);
   }, []);
 
+  const addToCart = (product) => {
+    console.log(`Added ${product.ProdName} to the cart`);
+  };
+
   return (
     <div className="page-container">
       <div
@@ -96,7 +165,7 @@ const Banner = () => {
         <div className="content">
           <span>{categories[currentCategory].title}</span>
           <a href={categories[currentCategory].link} className="button">
-            Shop {categories[currentCategory].category}
+            Shop For {categories[currentCategory].category}
           </a>
         </div>
       </div>
@@ -112,6 +181,24 @@ const Banner = () => {
                 />
               </div>
               <span className="product-name">{product.ProdName}</span>
+              <span className="prod-discription">
+                {product.ProductDiscription}
+              </span>
+
+              <div className="rating-container">
+                {Array.from({ length: 5 }).map((_, index) => (
+                  <FaStar
+                    key={index}
+                    className={index < product.rating ? "star-filled" : ""}
+                  />
+                ))}
+              </div>
+              <button
+                className="cart-button"
+                onClick={() => addToCart(product)}
+              >
+                <FaCartPlus />
+              </button>
             </div>
           ))}
         </div>
